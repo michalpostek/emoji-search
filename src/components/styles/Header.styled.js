@@ -17,15 +17,21 @@ export const StyledHeader = styled.header`
         color: ${props => props.theme.colors.secondary};
     }
 
-    button {
-        background: none;
+    div {
         position: absolute;
         right: 0;
         top: 0;
+        ${'' /* display: flex; */}
+    }
+
+    button {
+        text-decoration: underline;
+        background: none;
         border: none;
         border-radius: 50%;
-        padding: 0.5vh;
+        padding: 0.4vh 0.5vh;
         transition: 0.1s;
+        display: inline-block;
 
         &:hover {
             cursor: pointer;
@@ -33,7 +39,7 @@ export const StyledHeader = styled.header`
         }
 
         svg {
-            color: ${props => props.theme.colors.font}
+            color: ${props => props.theme.colors.font};
         }
     }
 `;

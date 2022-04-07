@@ -12,7 +12,7 @@ const Results = ({ keyword }) => {
         <StyledResults>
             {filteredEmojis.length 
                 && <ResultsList emojis={filteredEmojis} />
-                || <p>No matching emojis</p>
+                || <p>No matching results.</p>
             }
         </StyledResults>
     );

@@ -4,6 +4,11 @@ export const StyledResults = styled.div`
     margin: 3vh 6vw;
     display: flex;
     justify-content: center;
+
+    p {
+        color: ${props => props.theme.colors.font};
+        font-size: 2.8vh;
+    }
 `;
 
 export const StyledResultsList = styled.div`
