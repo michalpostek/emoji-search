@@ -6,4 +6,10 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
+    body {
+        background-color: ${props => props.theme.colors.primary};
+        font-family: 'Poppins', sans-serif;
+        transition: 0.3s;
+    }
 `

@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 export const StyledResults = styled.div`
-    margin: 5vh 7vw;
+    margin: 3vh 6vw;
     display: flex;
     justify-content: center;
 `;
 
 export const StyledResultsList = styled.div`
+    flex: 1;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 1vh;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 6vw));
+    grid-gap: 0.5vh;
     grid-auto-rows: 1fr;
 `;
 
@@ -17,14 +19,13 @@ export const StyledResultItem = styled.div`
     border-radius: 1vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 0.5vh;
+    padding: 2vh 0.5vw 0.5vh;
     transition: 0.1s ease-in;
 
     &:hover {
         cursor: pointer;
-        background-color: rgb(220, 220, 220);
+        background-color: ${props => props.theme.colors.hoverEffect};
     }
 
     img {
@@ -34,5 +35,7 @@ export const StyledResultItem = styled.div`
 
     p {
         text-align: center;
+        font-size: 1.5vh;
+        color: ${props => props.theme.colors.font};
     }
 `;
