@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const StyledResults = styled.div`
-    margin: 3vh 6vw;
-    display: flex;
-    justify-content: center;
+    padding: 2vh 2vw;
+`;
 
-    p {
-        color: ${props => props.theme.colors.font};
-        font-size: 2.8vh;
-    }
+export const Message = styled.p`
+    margin: 3vh 0;
+    font-size: 2.5vh;
+    text-align: center;
 `;
 
 export const StyledResultsList = styled.div`
@@ -16,31 +15,33 @@ export const StyledResultsList = styled.div`
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(100px, 6vw));
-    grid-gap: 0.5vh;
+    grid-row-gap: 1.5vh;
     grid-auto-rows: 1fr;
 `;
 
 export const StyledResultItem = styled.div`
-    border-radius: 1vw;
+    border-radius: 0.8vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2vh 0.5vw 0.5vh;
     transition: 0.1s ease-in;
+    padding: 1vh;
 
     &:hover {
         cursor: pointer;
-        background-color: ${props => props.theme.colors.hoverEffect};
+        background-color: rgba(255, 255, 255, 0.15);
     }
 
     img {
-        height: 7vh;
-        margin-bottom: 1vh;
+        height: 6.5vh;
     }
 
     p {
+        margin-top: 0.5vh;
+        font-size: 1.6vh;
+        flex: 1;
+        display: flex;
+        align-items: center;
         text-align: center;
-        font-size: 1.5vh;
-        color: ${props => props.theme.colors.font};
     }
 `;

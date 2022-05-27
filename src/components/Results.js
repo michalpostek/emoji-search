@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { StyledResults } from "./styles/Results.styled";
+import { StyledResults, Message } from "./styles/Results.styled";
 
 import ResultsList from "./ResultsList";
 import { filterEmojis } from "../helpers/filterEmojis";
@@ -12,7 +12,7 @@ const Results = ({ keyword }) => {
         <StyledResults>
             {filteredEmojis.length 
                 ? <ResultsList emojis={filteredEmojis} />
-                : <p>No matching results.</p>
+                : <Message>No matching results.</Message>
             }
         </StyledResults>
     );

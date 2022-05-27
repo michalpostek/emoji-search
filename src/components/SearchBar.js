@@ -5,9 +5,10 @@ import { StyledSearchBar } from "./styles/SearchBar.styled";
 const SearchBar = ({ setKeyword }) => {
     return (
         <StyledSearchBar>
+            <label htmlFor="keyword">Search for keywords</label>
             <input 
+                id="keywords"
                 type="text" 
-                placeholder="Search for a keyword..."
                 onChange={event => setKeyword(event.target.value)}
             />
         </StyledSearchBar>

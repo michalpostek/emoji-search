@@ -14,7 +14,7 @@ const ResultsList = ({ emojis }) => {
                         title={title}
                         symbol={symbol}
                     />
-                )
+                );
             })}
         </StyledResultsList>
     );

@@ -1,17 +1,23 @@
 import styled from "styled-components";
 
 export const StyledSearchBar = styled.form`
-    margin: 3vh 0;
+    padding: 1.5vh 0;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    label {
+        font-size: 2vh;
+    }
 
     input {
         text-align: center;
-        font-size: 3vh;
-        padding: 1vh 2vw;
-        border: 3px solid ${props => props.theme.colors.font};
-        border-radius: 2vw;
-        background-color: rgba(255, 255, 255, 0.2);
+        font-size: 2.5vh;
+        border: 2px solid ${props => props.theme.colors.font};
+        border-radius: 1vw;
+        background-color: transparent;
         color: ${props => props.theme.colors.font};
+        padding: 0.6vh 2vw;
     }
 `;

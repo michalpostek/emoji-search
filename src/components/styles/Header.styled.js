@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.header`
     text-align: center;
-    margin: 4vh 10vw;
-    position: relative;
+    padding: 3vh 0 2vh;
 
     h1 {
         font-size: 6vh;
-        margin: 0.5vh 0;
-        color: ${props => props.theme.colors.font};
+        font-weight: 400;
+        color: ${props => props.theme.colors.secondary};
     }
 `;
