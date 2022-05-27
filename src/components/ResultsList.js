@@ -7,11 +7,12 @@ import { StyledResultsList } from "./styles/Results.styled";
 const ResultsList = ({ emojis }) => {
     return (
         <StyledResultsList>
-            {emojis.map((emoji, index) => {
+            {emojis.map(({ title, symbol }) => {
                 return (
                     <ResultItem 
-                        key={index}
-                        emoji={emoji}
+                        key={title}
+                        title={title}
+                        symbol={symbol}
                     />
                 )
             })}
