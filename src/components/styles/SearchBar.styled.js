@@ -15,7 +15,7 @@ export const StyledSearchBar = styled.form`
         text-align: center;
         font-size: 2.5vh;
         border: 2px solid ${props => props.theme.colors.font};
-        border-radius: 1vw;
+        border-radius: 2vw;
         background-color: transparent;
         color: ${props => props.theme.colors.font};
         padding: 0.6vh 2vw;

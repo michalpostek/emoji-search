@@ -14,7 +14,7 @@ export const StyledResultsList = styled.div`
     flex: 1;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 6vw));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 7vw));
     grid-row-gap: 1.5vh;
     grid-auto-rows: 1fr;
 `;
