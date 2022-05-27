@@ -12,14 +12,14 @@ export const Message = styled.p`
 
 export const StyledResultsList = styled.div`
     flex: 1;
-    display: grid;
+    display: flex;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 7vw));
-    grid-row-gap: 1.5vh;
-    grid-auto-rows: 1fr;
+    flex-wrap: wrap;
 `;
 
 export const StyledResultItem = styled.div`
+    width: max(100px, 8vw);
+    margin: 1vh;
     border-radius: 0.8vw;
     display: flex;
     flex-direction: column;
@@ -33,12 +33,12 @@ export const StyledResultItem = styled.div`
     }
 
     img {
-        height: 6.5vh;
+        height: 6.8vh;
     }
 
     p {
         margin-top: 0.5vh;
-        font-size: 1.6vh;
+        font-size: 1.7vh;
         flex: 1;
         display: flex;
         align-items: center;
