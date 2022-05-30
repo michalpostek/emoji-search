@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+<h1>Emoji Search</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Web app that allows you to search emojis by keywords.</p>
+<p>Check out <a href="https://michalpostek.github.io/emoji-search/">live demo</a>.</p>
 
-## Available Scripts
+<h2>Basic usage</h2>
 
-In the project directory, you can run:
+<ol>
+    <li>Enter the keywords you looking for into search bar</li>
+    <li>Copy emoji by clicking on it</li>
+</ol>
 
-### `npm start`
+<h2>Technologies</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<ul>
+    <li><b>React</b> version 18</li>
+    <li><b>React Icons</b> version 4.3.1</li>
+    <li><b>Styled Components</b> version 5.3.3</li>
+    <li><b>Prop Types</b> version 16.8.1</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>License</h2>
 
-### `npm test`
+<p>This app is released under MIT License. Feel free to use it.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Installation</h2>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<ol>
+    <li>
+        <p>Run terminal and change current working directory to the location where you want to clone files.</p>
+        <pre>cd path/to/folder</pre>
+    </li>
+    <li>
+        <p>Clone repository</p>
+        <pre>git clone https://github.com/michalpostek/emoji-search.git</pre>
+    </li>
+    <li>
+        <p>Install dependencies</p>
+        <pre>npm install</pre>
+    </li>
+    <li>
+        <p>Run app</p>
+        <pre>npm start</pre>
+    </li>
+</ol>
