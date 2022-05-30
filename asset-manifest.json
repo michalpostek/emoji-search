@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/emoji-search/static/js/main.c60ecdea.js",
+    "main.js": "/emoji-search/static/js/main.7df6dc07.js",
     "index.html": "/emoji-search/index.html",
-    "main.c60ecdea.js.map": "/emoji-search/static/js/main.c60ecdea.js.map"
+    "main.7df6dc07.js.map": "/emoji-search/static/js/main.7df6dc07.js.map"
   },
   "entrypoints": [
-    "static/js/main.c60ecdea.js"
+    "static/js/main.7df6dc07.js"
   ]
 }
