@@ -6,7 +6,7 @@ const disappearing = keyframes`
 `;
 
 export const StyledAlert = styled.div`
-    position: absolute;
+    position: fixed;
     top: 25%;
     left: 50%;
     transform: translateX(-50%);
